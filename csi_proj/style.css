@@ -273,13 +273,23 @@ a {
     padding: 8px;
 }
 
+/* Contact */
 .contacts{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 100vh;
     color: white;
+}
+
+.contacts .contact-name  {
+    font-family: "Lilita One", sans-serif;
+    font-size:2rem;
+    text-shadow: black 3px 4px 6px;
+    padding: 20px 10px;
+    letter-spacing: 0.2rem;
 }
 
 .contacts .contact-container{
